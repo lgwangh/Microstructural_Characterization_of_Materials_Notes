@@ -7,7 +7,9 @@
 ===========================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: 目录:
 
    晶体结构.rst
+   X射线物理学.rst
+   X射线衍射.rst

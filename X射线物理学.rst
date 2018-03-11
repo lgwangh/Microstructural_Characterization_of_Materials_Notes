@@ -36,8 +36,8 @@ X射线管中阴极灯丝产生的高速电子流撞击金属阳极靶，产生X
 
 .. digraph:: classification
 
-	node[fontname = "SimSun",fontsize = 12];
-	edge[fontname = "SimSun",fontsize = 12];
+	node[fontname = "Noto Serif CJK SC",fontsize = 12];
+	edge[fontname = "Noto Serif CJK SC",fontsize = 12];
 	rankdir=LR;
 	root[label="谱线"];
 	K[label="K系"];

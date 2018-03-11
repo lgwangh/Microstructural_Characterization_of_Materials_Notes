@@ -34,23 +34,7 @@ X射线管中阴极灯丝产生的高速电子流撞击金属阳极靶，产生X
 
 谱线分类： 
 
-.. digraph:: classification
-
-	node[fontname = "Microsoft YaHei",fontsize = 12];
-	edge[fontname = "Microsoft YaHei",fontsize = 12];
-	rankdir=LR;
-	root[label="谱线"];
-	K[label="K系"];
-	Kalpha[label="K_α峰"];
-	Kalpha1[label="K_α1"];
-	root->K[label="跃迁到K层"];
-	K->Kalpha[label="来自L层"];
-	Kalpha->Kalpha1[label="来自L_III亚层"];
-	root->"L系"[label="跃迁到L层"];
-	root->"  ···  ";
-	K->"K_β峰"[label="来自M层"];
-	K->" ··· ";
-	Kalpha->"K_α2"[label="来自L_II亚层"]
+.. figure:: classification.dot.svg
 
 各谱线强度不同， :math:`K_{\alpha}:K_{\beta}\approx 5:1,K_{\alpha1}:K_{\alpha2}=2:1` ，总的K系谱线强度经验公式：
 

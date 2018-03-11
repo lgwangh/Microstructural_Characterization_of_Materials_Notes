@@ -1,0 +1,17 @@
+digraph classification{
+	node[fontname = "Noto serif CJK SC",fontsize = 12];
+	edge[fontname = "Noto serif CJK SC",fontsize = 12];
+	rankdir=LR;
+	root[label="谱线"];
+	K[label="K系"];
+	Kalpha[label="K_α峰"];
+	Kalpha1[label="K_α1"];
+	root->K[label="跃迁到K层"];
+	K->Kalpha[label="来自L层"];
+	Kalpha->Kalpha1[label="来自L_III亚层"];
+	root->"L系"[label="跃迁到L层"];
+	root->"  ···  ";
+	K->"K_β峰"[label="来自M层"];
+	K->" ··· ";
+	Kalpha->"K_α2"[label="来自L_II亚层"]
+}

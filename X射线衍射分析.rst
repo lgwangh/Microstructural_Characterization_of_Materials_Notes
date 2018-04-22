@@ -27,7 +27,7 @@ X射线衍射分析
 
 .. math::
 
-	&I_j=\frac{1}{2\bar{mu}_l}\left[\frac{V f_j}{V_c^2}P|F|^2L_pe^{-2M}\right]_j\\
+	&I_j=\frac{1}{2\bar{\mu}_l}\left[\frac{V f_j}{V_c^2}P|F|^2L_pe^{-2M}\right]_j\\
 	&其中f_j为体积分数，\bar{\mu}_l为试样总体的线吸收系数\\
 	&设与f_j无关的部分C_j=\left[\frac{V}{V_c^2}P|F|^2L_pe^{-2M}\right]_j\\
 	&则I_j=\frac{C_j f_j}{\bar{\mu}_l}=\frac{C_j f_j}{\rho\bar{\mu}_m}=\frac{C_j \omega_j}{\rho_j\bar{\mu}_m}\\
@@ -55,7 +55,7 @@ X射线衍射分析
 点阵结构分析
 ------------
 
-可以根据 :math:`I~\theta` 曲线计算出点阵常数。对于立方晶系：
+可以根据 :math:`I\sim\theta` 曲线计算出点阵常数。对于立方晶系：
 
 .. math::
 
@@ -80,8 +80,9 @@ X射线衍射分析
 为了减小误差（即 :math:`|\frac{\Delta d}{d}|` ），应从以下方面入手： 
 
 - 减小 :math:`\Delta\lambda\ \to` 改进X射线源
+- 增大 :math:`\lambda\ \to` 使用轻元素作为X射线管靶材，同时会降低分辨率
 - 减小 :math:`\Delta \theta\ \to` 改进测角仪
-- 增大 :math:`\theta` ，接近 90° 时能消除多种误差 :math:`\to` 选取适当的实验数据。
+- 增大 :math:`\theta` ，接近 90° 时能消除多种误差 :math:`\to` 选取适当的实验数据
 
 计算方法
 ++++++++
@@ -89,3 +90,10 @@ X射线衍射分析
 - 外推法：由于 :math:`\frac{\Delta a}{a}\propto\cos^2\theta` ，取 :math:`\theta>60^\circ` 时的 :math:`(\cos^2\theta,a)` 样本点拟合，其纵截距即为 :math:`a_0` 。对于更低角度的数据，可采用 :math:`(\cos^2\theta(\frac{1}{\sin\theta}+\frac{1}{\theta}),a)` 样本点拟合的方式。
 - 内标法：利用已知的内标样品（一般是 :math:`Si` 或 :math:`SiO_2` ），根据 :math:`d_{hkl}\sin\theta_{hkl}=d_s\sin\theta_s` 计算。
 - 线对法：利用同一次测量所得到的两根衍射线的线位差值计算点阵参数。
+
+应力测量分析
+------------
+
+
+衍射谱线形分析
+--------------

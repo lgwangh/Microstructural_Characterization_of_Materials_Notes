@@ -55,10 +55,10 @@
 .. math::
 
 	\left\{
-	\begin{align}
+	\begin{split}
 	&U=u-t,V=v-t,W=w\\
 	&h=H,k=K,i=-(H+K),l=L
-	\end{align}
+	\end{split}
 	\right.
 
 晶面间距通式： 
@@ -75,6 +75,8 @@
 .. math::
 
 	\vec{a}^*=\frac{\vec{b}\times\vec{c}}{V},\vec{b}^*=\frac{\vec{c}\times\vec{a}}{V},\vec{c}^*=\frac{\vec{a}\times\vec{b}}{V}
+
+原胞倒格子与晶胞倒格子基矢不同，因而倒格子也不同。原胞倒格点较少，对于单质，相当于已经去除了消光点的晶胞倒格子。之后若不作声明，均采用能够反映对称性的晶胞倒格子。
 
 倒格矢 :math:`\vec{H}_{hkl}` 对应正空间的 (h k l) 晶面，二者垂直，且 :math:`|\vec{H}_{hkl}|\cdot d_{hkl}=1` 
 

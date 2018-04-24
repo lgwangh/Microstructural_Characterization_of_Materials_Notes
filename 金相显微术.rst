@@ -14,8 +14,10 @@
 
 .. math::
 
+	\begin{split}
 	&\frac{\sin i_1}{\sin i_2}=\frac{v_1}{v_2}=\frac{n_2}{n_1}=n_{12}\\
 	&其中折射率 n=\frac{c}{v}
+	\end{split}
 
 反过来，当光由光密介质射向光疏介质，若 :math:`\sin i_2\ge\frac{n_1}{n_2}=\frac{v_2}{v_1}` 时，发生全反射。
 

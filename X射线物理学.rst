@@ -34,14 +34,16 @@ X射线管中阴极灯丝产生的高速电子流撞击金属阳极靶，产生X
 
 谱线分类： 
 
-.. figure:: classification.dot.svg
+.. figure:: classification.dot.png
 
 受跃迁概率和光子能量的综合影响，各谱线强度不同， :math:`K_{\alpha}:K_{\beta}\approx 5:1,K_{\alpha1}:K_{\alpha2}=2:1` ，总的K系谱线强度经验公式：
 
 .. math::
 
+	\begin{split}
 	&I_{特征}=Ai(U-U_K)^R\\
 	&U_K为K系临界激发电压，R\approx1.5
+	\end{split}
 
 X射线与物质相互作用
 -------------------
@@ -56,11 +58,13 @@ X射线的衰减
 
 .. math::
 
+	\begin{split}
 	&I=I_0 \exp(-\mu_l t) 其中t为物质厚度,\\
 	&\mu_l为线吸收系数，与波长和物质种类有关\\
 	&质量吸收系数\mu_m=\frac{\mu_l}{\rho}具有加和性\\
 	&即对于含多种元素的物质，\mu_m=\sum_{i=1}^n\omega_i\mu_{mi}\\
 	&决定因素\mu_m\approx K\lambda^3 Z^3，并且在吸收限处\mu_m突增
+	\end{split}
 
 具体原理
 ^^^^^^^^
@@ -69,7 +73,9 @@ X射线的衰减
 
 X射线光量子能量足够时，会引起受辐射物质的特征辐射，即 **荧光辐射** ，这对于衍射分析不利。能量要求 :math:`W_K=\frac{hc}{\lambda_K}` 。这种情况下X射线能量被大量吸收，产生吸收限 :math:`\lambda_K,\lambda_L,\lambda_M` 。由于光量子能量用于将电子击出至无穷远，而特征辐射的能量来自内层跃迁，因而吸收限波长略小于特征波长。
 
-除荧光辐射外，还会产生一个 K 空位被两个 L 空位取代的 **俄歇效应** ，俄歇电子可带来物质的表层信息。 
+除荧光辐射外，还会产生一个 K 空位被两个 L 空位取代的 **俄歇效应** ，轻元素的俄歇效应较强。俄歇电子可带来物质的表层信息。
+
+荧光辐射和俄歇效应合称真吸收。 
 
 吸收限的应用
 ++++++++++++
@@ -81,8 +87,8 @@ K系特征谱线包含两条，可采用吸收限恰位于 :math:`K_{\alpha}和K
 .. math::
 
 	\left\{
-	\begin{align}
+	\begin{split}
 	&Z_{滤}=Z_{靶}-1 \quad Z_{靶}<40\\
 	&Z_{滤}=Z_{靶}-2 \quad Z_{靶}\ge 40
-	\end{align}
+	\end{split}
 	\right.

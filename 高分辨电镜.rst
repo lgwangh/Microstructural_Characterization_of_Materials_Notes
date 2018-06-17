@@ -9,11 +9,11 @@
 平面波入射后受晶体势场调制，振幅和相位出现差异。试样很薄时，认为振幅不变，成为纯相位体。则像平面的像相当于晶体势场经过两次傅立叶变换：
 
 .. image:: 高分辨.png
-  :width: 500
+  :width: 600
 
 其中卷积定义为 
 
-.. math:: f*g\triangleq\int_{-\infty}^{+\infty}f(\tau)\g(x-\tau)\mathrm{d}\tau
+.. math:: f*g\triangleq\int_{-\infty}^{+\infty}f(\tau)g(x-\tau)\mathrm{d}\tau
 
 可见成像反映晶体势场，但受 :math:`\sin\chi` 干扰。 
 
